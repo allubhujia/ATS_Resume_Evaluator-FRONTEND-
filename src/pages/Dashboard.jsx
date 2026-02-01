@@ -4,9 +4,10 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import StatCard from '../components/StatCard';
 import ChartCard from '../components/ChartCard';
+import Background from '../components/background';
 function Dashboard() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-400 via-purple-300 to-pink-300">
+    <Background>
       <Navbar />
       <Hero />
       <div className="max-w-7xl mx-auto px-6 pb-8">
@@ -21,7 +22,7 @@ function Dashboard() {
           <ChartCard data={[]} />
         </div>
       </div>
-    </div>
+    </Background>
   );
 }
 export default Dashboard;
