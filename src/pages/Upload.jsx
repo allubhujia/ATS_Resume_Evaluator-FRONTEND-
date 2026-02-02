@@ -3,7 +3,7 @@ import { Upload as UploadIcon, FileText, Briefcase } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Button from '../components/Button';
-import Background from '../components/background';
+import Background from '../components/Background';
 
 function Upload() {
   const navigate = useNavigate();

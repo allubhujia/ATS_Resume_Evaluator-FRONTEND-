@@ -16,7 +16,9 @@ const Hero = () => {
         <Link to="/upload">
           <Button>Upload Resume</Button>
         </Link>
-        <Button variant="secondary">Learn More</Button>
+        <Link to="/learnmore">
+          <Button variant="secondary">Learn More</Button>
+        </Link>
       </div>
     </div>
   );

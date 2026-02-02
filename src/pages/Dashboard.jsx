@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import StatCard from '../components/StatCard';
 import ChartCard from '../components/ChartCard';
-import Background from '../components/background';
+import Background from '../components/Background';
 function Dashboard() {
   return (
     <Background>
